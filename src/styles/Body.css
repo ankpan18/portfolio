@@ -1,0 +1,55 @@
+.checkimage{
+    max-width: inherit;
+    height: inherit;
+}
+
+.about{
+    
+    background-color: rgb(13 12 14);
+}
+.about h2{
+    color:#e73064;
+    font-size:25px;
+}
+.about span{
+    font-size: 20px;
+    color: ghostwhite;
+    
+}
+.past_intern{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.past_intern .p1 >img{
+    width: 50px;
+}
+
+.past_intern .p1{
+    padding: 20px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills > img{
+    height: 40px;
+    object-fit: cover; 
+}
+
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media only screen and (max-width:700px) {
+    .skills > img{
+        height: 20px;
+        object-fit: cover; 
+    }
+}

@@ -1,0 +1,36 @@
+.nav_head{
+    /* height: 14vh; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aqua;
+    background: linear-gradient(#000000, #202d85);
+    padding: 17px;
+}
+.tabs{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggle{
+    display: none;
+        visibility: none;
+}
+
+@media only screen and (max-width:600px) {
+    .tabs{
+        display: none;
+        visibility: none;
+    }
+    .toggle{
+        display: flex;
+        color:black;    
+
+    }
+    .nav_head{
+        justify-content:flex-end;
+        align-items: normal;
+    }
+
+}
