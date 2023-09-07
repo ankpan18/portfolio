@@ -25,7 +25,7 @@ import Ci from '../assets/ci.png'
 
 function Body() {
   return (
-<>
+<main>
     <Container>
       <Row>
       
@@ -39,7 +39,8 @@ function Body() {
 dynamic and user-friendly web applications. I am
 currently working on CodeIgniter, and I am always eager
 to learn new technologies and best practices.</p></Col>
-<Col md={6} sm={12} xs={12}><img src={Profile} alt='Profile Pic'  className='checkimage'/></Col>
+<Col md={6} sm={12} xs={12} style={{display: "flex", justifyContent: "center"}}>
+  <img src={Profile} alt='Profile Pic'  className='checkimage'/></Col>
       
       </Row>
       </Container>
@@ -166,7 +167,7 @@ rating, genre in different cards.
     
       </div>
 
-      </>
+      </main>
       
   )
 }

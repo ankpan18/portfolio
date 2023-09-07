@@ -1,16 +1,32 @@
+  
 .nav_head{
-    /* height: 14vh; */
+    height: 5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: aqua;
-    background: linear-gradient(#000000, #202d85);
+    color: white;
+    /* background: linear-gradient(#000000, #202d85); */
+    background: var(--primary-color);
     padding: 17px;
 }
 .tabs{
     width: 85%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.06rem;
+}
+.tabs p{
+    margin:0;
+    cursor: pointer;
+    transition: all 100ms linear;
+    
+    &:hover{
+        transform: scale(1.06);
+        text-shadow: 2px 2px 50px #fff;
+        border-bottom: 2px solid #fff;
+    }
+
 }
 
 .toggle{

@@ -24,7 +24,7 @@ function Header() {
     
   }
   return (
-    <div className="nav_head">
+    <header className="nav_head">
         <div className='tabs' ref={head}>
        <p>Home</p>
         <p>About Me</p>
@@ -35,7 +35,7 @@ function Header() {
         <FontAwesomeIcon icon={faBars} style={{color:'ghostWhite'}}/>
         </div>
 
-    </div>
+    </header>
     
   )
 }
