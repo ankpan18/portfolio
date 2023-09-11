@@ -26,28 +26,20 @@ import Ci from '../assets/ci.png'
 function Body() {
   return (
 <main>
-    <Container>
-      <Row>
-      
-      <Col md={6} sm={12} xs={12} style={{    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center"}}>
-
+    <section id='home'>
+      <div>
         <h2>I am Ankur Panthri</h2>
-      
-      <p>I am a passionate Web developer who enjoys creating
-dynamic and user-friendly web applications. I am
-currently working on CodeIgniter, and I am always eager
-to learn new technologies and best practices.</p></Col>
-<Col md={6} sm={12} xs={12} style={{display: "flex", justifyContent: "center"}}>
-  <img src={Profile} alt='Profile Pic'  className='checkimage'/></Col>
-      
-      </Row>
-      </Container>
+        <p>I am a passionate Web developer who enjoys creating dynamic and user-friendly web applications. I am currently working on CodeIgniter, and I am always eager to learn new technologies and best practices.</p>
+      </div>
+
+      <div>
+        <img src={Profile} alt='Profile Pic'  className='checkimage'/>
+      </div>
+    </section>
 
     {/* About Me */}
 
-    <div className='about'>
+    <div id='about'>
       
      <h2>Qualifications: <span>Msc. Computer Science (2023) CGPA-8.89 FIRST With Distinction</span></h2>
      <h2>Current Role: <span>PHP Developer at Decrypton</span></h2>
@@ -87,7 +79,7 @@ of popular websites using Bootstrap.</span></div>
 
       {/* Projects  */}
       <h2>Sample Projects</h2>
-      <div className='project'>
+      <div className='project' id='projects'>
 
  <Card style={{ width: '30rem' }}>
       <Card.Img variant="top" src={P1} />

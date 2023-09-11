@@ -26,10 +26,10 @@ function Header() {
   return (
     <header className="nav_head">
         <div className='tabs' ref={head}>
-       <p>Home</p>
-        <p>About Me</p>
-        <p>Projects</p>
-        <p>Contact</p>
+       <p><a href='#home'>Home</a></p>
+        <p><a href='#about'>About Me</a></p>
+        <p><a href='#projects'>Projects</a></p>
+        <p><a href='#contact'>Contact</a></p>
         </div>
         <div className='toggle' onClick={handleClick} >
         <FontAwesomeIcon icon={faBars} style={{color:'ghostWhite'}}/>

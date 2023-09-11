@@ -1,4 +1,7 @@
-  
+html{
+    scroll-behavior:smooth;
+}
+
 .nav_head{
     height: 5rem;
     display: flex;
@@ -29,9 +32,14 @@
 
 }
 
+.tabs p a{
+    text-decoration: none;
+    color:inherit;
+}
+
 .toggle{
     display: none;
-        visibility: none;
+    visibility: none;
 }
 
 @media only screen and (max-width:600px) {
