@@ -39,21 +39,25 @@ function Body() {
 
     {/* About Me */}
 
-    <div id='about'>
+    <section id='about'>
       
-     <h2>Qualifications: <span>Msc. Computer Science (2023) CGPA-8.89 FIRST With Distinction</span></h2>
-     <h2>Current Role: <span>PHP Developer at Decrypton</span></h2>
+      <h2>Qualifications: <span>Msc. Computer Science (2023) CGPA-8.89 FIRST With Distinction</span></h2>
+      <h2>Current Role: <span>PHP Developer at Decrypton</span></h2>
     
     {/* Past Internships */}
     <div className='past_intern'>
-    <h2>Previous Internships</h2>
-    <div className='p1'><img src={Salesforce} alt=''/> <span> Salesforce Developer Virtual Internship: Here I learned concepts of Salesforce using Trailheads
-and completed various modules.
-Used Apex for development</span></div>
-     <div className='p1'><img src={Suven} alt=''/><span> UI/UX (Bootstrap) Coding Internship: This internship involved front end web development
-of popular websites using Bootstrap.</span></div>
+      <h2>Previous Internships:</h2>
+      <div className='p1'>
+        <img src={Salesforce} alt=''/> 
+        <span> <span className='subheading'>Salesforce Developer Virtual Internship:</span> Here I learned concepts of Salesforce using Trailheads and completed various modules. Used Apex for development</span>
+      </div>
+
+      <div className='p1'>
+        <img src={Suven} alt=''/>
+        <span> <span className='subheading'>UI/UX (Bootstrap) Coding Internship:</span> This internship involved front end web development of popular websites using Bootstrap.</span>
+      </div>
     </div>
-{/* 
+  {/* 
     Certications
     <div className='cert'>
 
@@ -69,17 +73,18 @@ of popular websites using Bootstrap.</span></div>
     <img src={Mysql} alt="Mysql Developer"/>
     <img src={Mern} alt="Mern Developer"/>
     <img src={Ci} alt="CI Developer"/>
-   {/* <div> <span>PHP </span> </div> */}
+    {/* <div> <span>PHP </span> </div> */}
     </div>
 
-     {/* <h2>Certications: <span>PHP Developer at Decrypton</span></h2> */}
+      {/* <h2>Certications: <span>PHP Developer at Decrypton</span></h2> */}
 
-    </div>
+    </section>
 
 
       {/* Projects  */}
+      <section id='projects'>
       <h2>Sample Projects</h2>
-      <div className='project' id='projects'>
+      <div className='project'>
 
  <Card style={{ width: '30rem' }}>
       <Card.Img variant="top" src={P1} />
@@ -158,6 +163,7 @@ rating, genre in different cards.
     </Card>
     
       </div>
+      </section>
 
       </main>
       
