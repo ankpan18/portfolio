@@ -95,7 +95,7 @@ function Body() {
 Bootstrap CSS, JavaScript, PHP and mySQL
         </Card.Text>
         <a href="https://github.com/ankpan18/car_rental_project" class="social text-white me-4" target="_blank" rel="noopener noreferrer"><Button variant="primary" className='mx-2'>Code</Button></a>
-        <a href="https://www.twitter.com/ankur_panthri" class="social text-white me-4" target="_blank" rel="noopener noreferrer"><Button variant="danger">Live</Button></a>
+        <a href="https://www.linkedin.com/in/ankur-panthri" class="social text-white me-4" target="_blank" rel="noopener noreferrer"><Button variant="danger" disabled>Live</Button></a>
 
       </Card.Body>
     </Card>
@@ -120,7 +120,7 @@ Bootstrap CSS, JavaScript, PHP and mySQL
         Ecommerce website made using PHP and MySQL......
         </Card.Text>
         <a href="https://github.com/ankpan18/flipzon" class="social text-white me-4" target="_blank" rel="noopener noreferrer"><Button variant="primary" className='mx-2'>Code</Button></a>
-        <a href="https://www.twitter.com/ankur_panthri" class="social text-white me-4" target="_blank" rel="noopener noreferrer"><Button variant="danger">Live</Button></a>
+        <a href="https://www.linkedin.com/in/ankur-panthri/" class="social text-white me-4" target="_blank" rel="noopener noreferrer"><Button variant="danger" disabled>Live</Button></a>
 
       </Card.Body>
     </Card>
@@ -132,7 +132,7 @@ Bootstrap CSS, JavaScript, PHP and mySQL
           A MERN website that allows signup and login with profile photo and otp in email. 
         </Card.Text>
         <a href="https://github.com/ankpan18/login_mern" class="social text-white me-4" target="_blank" rel="noopener noreferrer"><Button variant="primary" className='mx-2'>Code</Button></a>
-        <a href="https://www.twitter.com/ankur_panthri" class="social text-white me-4" target="_blank" rel="noopener noreferrer"><Button variant="danger">Live</Button></a>
+        <a href="https://www.linkedin.com/in/ankur-panthri/" class="social text-white me-4" target="_blank" rel="noopener noreferrer"><Button variant="danger" disabled>Live</Button></a>
 
       </Card.Body>
     </Card>
@@ -157,7 +157,7 @@ rating, genre in different cards.
         This extension allows us to get Location based on IP Address. Made using Plasmo, React, Tailwind and TypeScript
         </Card.Text>
         <a href="https://github.com/ankpan18/location-extension" class="social text-white me-4" target="_blank" rel="noopener noreferrer"><Button variant="primary" className='mx-2'>Code</Button></a>
-        <a href="https://www.twitter.com/ankur_panthri" class="social text-white me-4" target="_blank" rel="noopener noreferrer"><Button variant="danger">Live</Button></a>
+        <a href="https://www.linkedin.com/in/ankur-panthri/" class="social text-white me-4" target="_blank" rel="noopener noreferrer"><Button variant="danger" disabled>Live</Button></a>
 
       </Card.Body>
     </Card>
