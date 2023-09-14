@@ -7,7 +7,7 @@ import '../styles/Footer.css'
 function Footer() {
   return (
 
-    <div className="mt-5">
+    <div className="mt-5" id='contact'>
 
   <div className="text-lg-start text-white" style={{backgroundColor:'#1c2331'}}>
     <section className="d-flex justify-content-between align-items-center p-4" style={{backgroundColor: '#2a976d'}}>
