@@ -28,7 +28,7 @@ function Body() {
 <main>
     <section id='home'>
       <div>
-        <h2>I am Ankur Panthri</h2>
+        <h2 class="typing-animation">I am Ankur Panthri</h2>
         <p>I am a passionate Web developer who enjoys creating dynamic and user-friendly web applications. I am currently working on CodeIgniter, and I am always eager to learn new technologies and best practices.</p>
       </div>
 
@@ -41,7 +41,7 @@ function Body() {
 
     <section id='about'>
       
-      <h2>Qualifications: <span>Msc. Computer Science (2023) CGPA-8.89 FIRST With Distinction</span></h2>
+      <h2>Qualifications: <span>Msc. Computer Science (2023) CGPA-8.83 FIRST With Distinction</span></h2>
       <h2>Current Role: <span>PHP Developer at Decrypton</span></h2>
     
     {/* Past Internships */}

@@ -55,6 +55,7 @@ html{
     .nav_head{
         justify-content:flex-end;
         align-items: normal;
+        height: fit-content;
     }
 
 }
