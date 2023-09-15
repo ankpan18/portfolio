@@ -28,7 +28,9 @@ function Body() {
 <main>
     <section id='home'>
       <div>
-        <h2 class="typing-animation">I am Ankur Panthri</h2>
+        <div id="name_container">
+          <h2 class="typing-animation">I am Ankur Panthri</h2>
+        </div>
         <p>I am a passionate Web developer who enjoys creating dynamic and user-friendly web applications. I am currently working on CodeIgniter, and I am always eager to learn new technologies and best practices.</p>
       </div>
 
@@ -64,19 +66,16 @@ function Body() {
     </div> */}
 
     
+    <h2 id='skill_heading'>Skills:</h2>
     <div className='skills pt-4'>
-      <h2>Skills</h2>
       <img src={Html} alt="HTML Developer"/>
       <img src={Css} alt="Css Developer"/>
       <img src={Js} alt="JS Developer"/>
-    <img src={Php} alt="PHP Developer"/>
-    <img src={Mysql} alt="Mysql Developer"/>
-    <img src={Mern} alt="Mern Developer"/>
-    <img src={Ci} alt="CI Developer"/>
-    {/* <div> <span>PHP </span> </div> */}
+      <img src={Php} alt="PHP Developer"/>
+      <img src={Mysql} alt="Mysql Developer"/>
+      <img src={Mern} alt="Mern Developer"/>
+      <img src={Ci} alt="CI Developer"/>
     </div>
-
-      {/* <h2>Certications: <span>PHP Developer at Decrypton</span></h2> */}
 
     </section>
 
